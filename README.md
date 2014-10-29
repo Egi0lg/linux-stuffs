@@ -8,6 +8,8 @@ linux-stuffs
 
 - [tshark_man_chinese.pdf](https://github.com/leolovenet/linux-stuffs/raw/master/tshark_man_chinese.pdf) 抓包工具**wireshark**命令行版本`tshark`的中文man帮助。对于在服务器上抓包来说简直是有如神助的好工具，但是使用起来不是那么容易，所以翻译整理了一下，并配上了实例说明。
 
+- [lsof_man_chinese.pdf](https://github.com/leolovenet/linux-stuffs/raw/master/lsof_man_chinese.pdf) 为命令lsof的中文使用举例，事实证明，通过例子来学习这个命令是最快的。
+
 - [tools](https://github.com/leolovenet/linux-stuffs/tree/master/tools)是一些自己写的工具集。使用方法为在服务器安装[LuaDist](http://luadist.org/)的`lua`执行环境，下载对应的脚本放到`LuaDist`的`bin`目录下，然后直接运行 `t-build.sh`  或者 将`LuaDist`的`bin`目录添加到`PATH`环境变量中，并向对应脚本添加可执行权限，直接运行脚本即可。
     
     >- [t-build.sh](https://github.com/leolovenet/linux-stuffs/blob/master/tools/t-build.sh) 为将下面的工具脚本编译为可执行文件，输出以`t-`开头的命令程序，你可以忽略此步骤，而将下面脚本赋予可执行权限后直接执行。
