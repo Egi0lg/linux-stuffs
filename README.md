@@ -55,7 +55,7 @@ linux-stuffs
 >- [t_all_connects_to_outside_on_port.lua](https://github.com/leolovenet/linux-stuffs/blob/master/tools/t_all_connects_to_outside_on_port.lua) 为运行在负载均衡服务器上，查看当前对内部服务器的每服务器的连接数。输出样式如下：
     ```
         ================================================
-        ip_addrs     connect_number	    server_name
+        server_name     connect_number	ip_addrs    
         web1        	(31)	        192.168.0.20
         web7        	(31)	        192.168.0.26
         web4        	(30)	        192.168.0.23
